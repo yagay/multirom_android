@@ -34,8 +34,6 @@
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
-  <project path="device/oneplus/bacon" name="KINGbabasula/android_device_oneplus_bacon" remote="github" revision="oxygen" />
-  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" remote="github" revision="cm-13.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
 
@@ -114,8 +112,6 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   
-  <project path="kernel/oneplus/msm8974" name="TeamWin/android_kernel_oneplus_msm8974" remote="github" revision="cm-12.1" />
-
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
@@ -167,5 +163,4 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" />
 
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-13.0" />
 </manifest>
